@@ -1,0 +1,14 @@
+/*
+/*/
+!/.gitignore
+!/.gitmodules
+!/doc/
+!/etc/
+!/license/
+!/screenshots/
+!/site-lisp/
+!/bookmarks
+!/eshell-aliases
+!/init.el
+!/README.org
+!/.git
