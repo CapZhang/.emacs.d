@@ -3,6 +3,8 @@
 (require '+config)
 ;;; Package Settings
 (require 'init-elpa)
+;;
+(require 'init-org)
 
 ;;; User Interface
 (require 'init-ui)

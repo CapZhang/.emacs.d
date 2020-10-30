@@ -1,7 +1,7 @@
 ;;;; This file is used for emacs UI
 ;;; Basics
-(menu-bar-mode -1) ; Close the menu bar
-(tool-bar-mode -1) ; Close the tool bar
+(menu-bar-mode t) ; Close the menu bar
+(tool-bar-mode t) ; Close the tool bar
 (scroll-bar-mode -1) ; Close Scroll bar
 (tab-bar-mode -1) ; Set tab bar not display
 (global-hl-line-mode t) ; Highlight current line
@@ -10,7 +10,7 @@
 ;;; Relative Line Numbers
 (setq display-line-numbers-type 'relative)
 (global-display-line-numbers-mode t)
-(toggle-frame-fullscreen) ; Set fullscreen
+;;(toggle-frame-fullscreen) ; Set fullscreen
 (setq inhibit-splash-screen t) ; Close the startup screen
 
 ;;; Font
@@ -34,9 +34,9 @@
   (message "Can't find %s font. You can install it or ignore this message at init-ui.el" kiteab/font-name))
 
 ;;; Background Alpha 透明度
-(unless (file-exists-p
-         (expand-file-name (locate-user-emacs-file "not-alpha")))
-  (set-frame-parameter nil 'alpha '(90 . 100)))
+;;(unless (file-exists-p
+;;         (expand-file-name (locate-user-emacs-file "not-alpha")))
+;;  (set-frame-parameter nil 'alpha '(90 . 100)))
 
 
 ;;; Awesome Tray
@@ -45,7 +45,7 @@
    :hook (after-init-hook . awesome-tray-mode)
    :config
    ;; Custom Modules
-                                         ; Current Input Method
+                                        ; Current Input Method
    (defun kiteab/current-input-method ()
      "Display current input method at awesome tray."
      (setq kiteab/current-input-method-en "EN")
@@ -60,12 +60,13 @@
         :foreground "#ff2d55" :bold t))
      "Git face."
      :group 'awesome-tray)
-    (add-to-list 'awesome-tray-module-alist '("current-input-method" . (kiteab/current-input-method kiteab/current-input-method-face)))
+   (add-to-list 'awesome-tray-module-alist '("current-input-method" . (kiteab/current-input-method kiteab/current-input-method-face)))
    ;; Set Modules
-    (setq awesome-tray-active-modules '("git" "location" "current-input-method" "mode-name" "parent-dir" "buffer-name" "date")))
+   (setq-default mode-line-format (remove 'mode-line-buffer-identification mode-line-format))
+   (setq awesome-tray-active-modules '("git" "location" "current-input-method" "mode-name" "parent-dir" "buffer-name" "date")))
 
 ;;; Lazycat Themes 根据时间切换主题
-(use-package lazycat-theme :load-path "~/.emacs.d/site-lisp/lazycat-theme")
+ (use-package lazycat-theme :load-path "~/.emacs.d/site-lisp/lazycat-theme")
 
 ;;; Spacemacs Themes
 (use-package spacemacs-common

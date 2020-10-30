@@ -1,31 +1,27 @@
-;;;; This file is about Org Mode settings
-(use-package org
-  :ensure t
-  :init
-  (define-prefix-command 'org-key-map)
-  (global-set-key (kbd "C-q C-c") 'org-key-map)
-  :bind (("C-q C-c g" . org-agenda)
-         ("C-q C-c c" . org-capture)
-         ("C-q C-c s" . org-timer-start)
-         ("C-q C-c S" . org-timer-set-timer)
-         ("C-q C-c e" . org-timer-stop)
-         ("C-q C-c SPC" . org-timer-pause-or-continue)
-         ("C-q C-c C-i" . kiteab/use-space-indent))
-  :hook (org-mode-hook . (lambda () (setq indent-tabs-mode nil) (define-key org-mode-map (kbd "C-'") nil))))
 
-(setq org-log-mode 'note) ; Set the log mode type
-(setq org-src-fontify-natively t)
-(setq org-startup-folded nil) ; Don't fold contents by normal
-(setq org-todo-keywords
-      '((sequence "TODO(t)" "STUDY(s)" "WAIT(w@/!)" "|" "DONE(d@/!)" "CANCEL(c@/!)")
-        (sequence "BUG(b)" "KNOWN(k)" "|" "FINISHED(f@/!)"))) ; Set the todo's keywords
-(setq org-tag-alist '(("@code" . ?c) ("@life" . ?l))) ; Set the org tags keyword
-(setq org-M-RET-may-split-line '((headline . nil))) ; Don't split text
-(setq org-hide-leading-stars t) ; Hide the leading stars
-(setq org-odd-levels-only t) ; Only odd the levels
-(setq org-confirm-babel-evaluate nil
-      org-src-fontify-natively t
-      org-src-tab-acts-natively t) ; Highlight code in babel and not ask
+(use-package
+  org
+  :ensure t
+  ;; ('org-mode . 'toggle-truncate-lines)
+  :bind
+  ;;("C-c c" . 'org-capture)
+  ("C-c a" . 'org-agenda)
+  ;;("M-H" . 'org-shiftmetaleft)
+  ;;("M-L" . 'org-shiftmetaright)
+  :custom
+  (org-todo-keywords '((sequence "[学习](s!/@)" "[待办](t!/@)" "[等待](w!))" "|" "[完成](d!/@)" "[取消](c!@)")
+                       (sequence "[BUG](b!/@)" "[新事件](i@)" "[已知问题](k!/@)" "[修改中](W!/@)" "|" "[已修复](f!)")))
+  :config
+  (setq org-todo-keyword-faces '(("[学习]" . (:foreground "white" :background "#2ECC71" :weight bold))
+                                 ("[待办]" . (:foreground "white" :background "#F1C40F" :weight bold))
+                                 ("[等待]" . (:foreground "white" :background "#3498DB" :weight bold))
+                                 ("[完成]" . (:foreground "black" :background "snow " :weight bold))
+                                 ("[取消]" . (:foreground "white" :background "#566573" :weight bold))
+                                 ("[BUG]" . (:foreground "white" :background "#E74C3C" :weight bold))
+                                 ("[新事件]" . (:foreground "white" :background "#D35400" :weight bold))
+                                 ("[已知问题]" . (:foreground "white" :background "#17A589" :weight bold))
+                                 ("[修改中]" . (:foreground "white" :background "#BB8FCE" :weight bold))
+                                 ("[已修复]" . (:foreground "white" :background "#566573" :weight bold)))))
 
 ;; Org Babel
 (org-babel-do-load-languages
@@ -66,9 +62,13 @@
 (setq org-export-with-sub-superscripts nil)
 
 ;;; Org Bullets
-(use-package org-bullets
-  :ensure t
-  :hook (org-mode-hook . (lambda () (org-bullets-mode t)))
-  :custom (org-bullets-bullet-list '("☰" "☷" "✿" "☭")))
+(require 'org-bullets)
+(add-hook 'org-mode-hook #'org-bullets-mode)
+(setq org-bullets-bullet-list '("①" "②" "③"
+                                    "④" "⑤" "⑥" "⑦"
+                                    "⑧" "⑨" "⑩" "⑪"
+                                    "⑫" "⑬" "⑭"
+                                    "⑮" "⑯" "⑰"
+                                    "⑱" "⑲" "⑳"))
 
 (provide 'init-org)

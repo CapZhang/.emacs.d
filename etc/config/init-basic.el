@@ -10,13 +10,18 @@
 (electric-pair-mode t) ; Auto complete the "()"
 
 ;; UTF-8
-(set-charset-priority 'unicode)
-(setq locale-coding-system   'utf-8)    ; pretty
-(set-terminal-coding-system  'utf-8)    ; pretty
-(set-keyboard-coding-system  'utf-8)    ; pretty
-(set-selection-coding-system 'utf-8)    ; please
-(prefer-coding-system        'utf-8)    ; with sugar on top
-(setq default-process-coding-system '(utf-8 . utf-8))
+;; (set-charset-priority 'unicode)
+;; (setq locale-coding-system   'utf-8)
+                                        ; pretty
+;; (set-terminal-coding-system  'utf-8)
+                                        ; pretty
+;; (set-keyboard-coding-system  'utf-8)
+                                        ; pretty
+;; (set-selection-coding-system 'utf-8)
+                                        ; please
+;; (prefer-coding-system        'utf-8)
+                                        ; with sugar on top
+;; (setq default-process-coding-system '(utf-8 . utf-8))
 
 (setq electric-pair-pairs
       '((?\" . ?\")

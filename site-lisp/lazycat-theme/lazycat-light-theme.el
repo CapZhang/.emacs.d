@@ -215,7 +215,7 @@ determine the exact padding."
    (mode-line-emphasis
     :foreground (if -modeline-bright base8 highlight)
     :height 0.1)
-
+   
    (solaire-mode-line-face
     :inherit 'mode-line
     :background modeline-bg-l
