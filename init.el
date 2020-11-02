@@ -33,6 +33,7 @@
 ;;
 ;;
 
+
 ;;; Automatic Optimization
 (setq gc-cons-threshold-original gc-cons-threshold)
 (setq gc-cons-threshold (* 1024 1024 100))
@@ -57,3 +58,7 @@
 
 ;;; Require Configuration Files
 (require 'init-config)
+;; 加密
+(require 'epa-file)
+(custom-set-variables '(epg-gpg-program  "~/gnupg/GnuPG/"))
+(epa-file-enable)
