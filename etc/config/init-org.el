@@ -82,7 +82,7 @@
 
 (add-hook 'org-clock-in-hook 'sanityinc/show-org-clock-in-header-line)
  (add-hook 'org-clock-out-hook 'sanityinc/hide-org-clock-from-header-line)
-‘ (add-hook 'org-clock-cancel-hook 'sanityinc/hide-org-clock-from-header-line)
+ (add-hook 'org-clock-cancel-hook 'sanityinc/hide-org-clock-from-header-line)
 
 (after-load 'org-clock
   (define-key org-clock-mode-line-map [header-line mouse-2] 'org-clock-goto)
@@ -97,5 +97,5 @@
             (lambda () (call-process "/usr/bin/osascript" nil 0 nil "-e"
                                      "tell application \"org-clock-statusbar\" to clock out"))))
 
- (setq-default mode-line-format nil)
+(setq-default mode-line-format t)
 (provide 'init-org)

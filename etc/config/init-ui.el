@@ -45,7 +45,7 @@
    :hook (after-init-hook . awesome-tray-mode)
    :config
    ;; Custom Modules
-                                        ; Current Input Method
+   ;; Current Input Method
    (defun kiteab/current-input-method ()
      "Display current input method at awesome tray."
      (setq kiteab/current-input-method-en "EN")
@@ -62,7 +62,7 @@
      :group 'awesome-tray)
    (add-to-list 'awesome-tray-module-alist '("current-input-method" . (kiteab/current-input-method kiteab/current-input-method-face)))
    ;; Set Modules
-   (setq-default mode-line-format (remove 'mode-line-buffer-identification mode-line-format))
+   ;; (setq-default mode-line-format (remove 'mode-line-buffer-identification mode-line-format))
    (setq awesome-tray-active-modules '("git" "location" "current-input-method" "mode-name" "parent-dir" "buffer-name" "date")))
 
 ;;; Lazycat Themes 根据时间切换主题
