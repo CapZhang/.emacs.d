@@ -7,6 +7,7 @@
 !/license/
 !/screenshots/
 !/site-lisp/
+!/elpa
 !/bookmarks
 !/eshell-aliases
 !/init.el

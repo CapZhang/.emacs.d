@@ -59,6 +59,7 @@
 ;;; Require Configuration Files
 (require 'init-config)
 ;; 加密
-(require 'epa-file)
-(custom-set-variables '(epg-gpg-program  "~/gnupg/GnuPG/"))
-(epa-file-enable)
+ (require 'ps-ccrypt)
+;; (require 'init-ccrypt)
+;; (require 'epa-file)
+;; (setq epa-file-select-keys 0)

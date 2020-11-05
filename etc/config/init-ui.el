@@ -68,13 +68,14 @@
 ;;; Lazycat Themes 根据时间切换主题
  (use-package lazycat-theme :load-path "~/.emacs.d/site-lisp/lazycat-theme")
 
+
 ;;; Spacemacs Themes
 (use-package spacemacs-common
   :ensure spacemacs-theme
   :defer
-; :config
-; (setq-default cursor-type '(bar . 1))
-; (set-cursor-color "white")
+                                        ; :config
+                                        ; (setq-default cursor-type '(bar . 1))
+                                        ; (set-cursor-color "white")
   )
 
 ;;; Circadian - Switch Theme
