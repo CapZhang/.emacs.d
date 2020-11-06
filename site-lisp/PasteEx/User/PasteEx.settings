@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<settings>
+  <globalSettings>
+    <setting name="autoExtRule">
+    </setting>
+    <setting name="autoImageToFileEnabled">True</setting>
+    <setting name="ApplicationFilterState">Exclude</setting>
+    <setting name="monitorAutoSavePath">
+    </setting>
+    <setting name="lastBootTime">11/05/2020 18:16:08</setting>
+    <setting name="pasteHotkey">Ctrl + Alt + X</setting>
+    <setting name="guid">473A-7F79-ED9A-0510-04E9-9D48-68F8-2647</setting>
+    <setting name="firstTipFlag">True</setting>
+    <setting name="fileNamePattern">Clip_$yyyyMMdd_HHmmss$</setting>
+    <setting name="ApplicationFilterExclude">
+    </setting>
+    <setting name="monitorAutoSaveEnabled">False</setting>
+    <setting name="DefaultStartupMonitorModeEnabled">False</setting>
+    <setting name="autoExtSwitch">False</setting>
+    <setting name="language">
+    </setting>
+    <setting name="ApplicationFilterInclude">
+    </setting>
+  </globalSettings>
+</settings>

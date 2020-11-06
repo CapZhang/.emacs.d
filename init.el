@@ -58,8 +58,16 @@
 
 ;;; Require Configuration Files
 (require 'init-config)
+
 ;; 加密
- (require 'ps-ccrypt)
+(require 'ps-ccrypt)
+;; (ps-ccrypt-install)
+
 ;; (require 'init-ccrypt)
 ;; (require 'epa-file)
 ;; (setq epa-file-select-keys 0)
+
+;; 粘贴图片,需要
+;; (require 'pasteex-mode)
+;; (setq pasteex-executable-path "~/.emacs.d/site-lisp/PasteEx/PasteEx.exe")
+;; (global-set-key (kbd "C-x p i") 'pasteex-image)
