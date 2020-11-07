@@ -123,40 +123,31 @@
 
   ;; make img dir if not exists
   (setq img-dir (concatenate 'string (file-name-directory (buffer-file-name)) "img"))
-
   (unless (file-directory-p img-dir)
     (make-directory img-dir))
-
   ;; build image file name (use `pasteex_screenshot' as prefix, following buffer name, following datetime string)
   (setq img-file-name (format "snipaste_screenshot_%s_%s.png" (file-name-base (buffer-file-name)) (format-time-string "%Y%m%d%H%M%S")))
-
   ;; save image file to img-dir by invoking pasteex executable command
   (shell-command (format "%s" pasteex-executable-path))
-
   (message "开始前===============")
-
   (shell-command (format "%s snip -o %s/%s" pasteex-executable-path img-dir img-file-name))
-
   (message (format "%s snip -o %s/%s" pasteex-executable-path img-dir img-file-name))
-
   (setq relative-img-file-path (concatenate 'string "./img/" img-file-name))
-
   ;; 检查文件是否存在，不存在就等等,还没有完成
   (loop do
         (;; check is png file or not
-         (unless (pasteex-is-png-file relative-img-file-path)
-           (message relative-img-file-path)
-           ;; delete the generated file
-           (delete-file relative-img-file-path)
-           (user-error "There is no image on clipboard."))
+         ;; (unless (pasteex-is-png-file relative-img-file-path)
+         ;;   (message relative-img-file-path)
+         ;;   ;; delete the generated file
+         ;;   (delete-file relative-img-file-path)
+         ;;   (user-error "There is no image on clipboard."))
 
          ;; image display name
-         (setq display-name (read-string "Input a display name (default empty): "))
+         ;; (setq display-name (read-string "Input a display name (default empty): "))
          ;; insert image file path (relative path)
-         (insert (pasteex-build-img-file-insert-path relative-img-file-path display-name)))
-
+         (insert (pasteex-build-img-file-insert-path relative-img-file-path (read-string "Input a display name (default empty): "))))
         (while  (file-exists-p (format "%s/%s" img-dir img-file-name))
-          ) )
+          ) ) )
 
 (defun pasteex-build-img-file-insert-path (file-path display-name)
   "Build image file path that to insert to current point."
