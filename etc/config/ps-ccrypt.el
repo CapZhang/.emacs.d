@@ -1064,7 +1064,7 @@ The return value is the entry in `file-name-handler-alist' for ps-ccrypt."
 
 (ps-ccrypt-install)
 (add-hook 'before-init-hook (lambda () (ps-ccrypt-install)))
-
+(add-hook 'buffer-list-update-hook (lambda () (ps-ccrypt-install)))
 (provide 'ps-ccrypt)
 
 ;; ps-ccrypt.el ends here.
