@@ -65,7 +65,7 @@
 ;;
 ;; After you make a screenshot to clipboard, or copy a PNG image file to clipboard,
 ;; then just press `C-x p i` shortcut, and the file link or path will be inserted to your buffer
-;; immediately, the screenshot image file is saved to `./img/` directory by default. 
+;; immediately, the screenshot image file is saved to `./img/` directory by default.
 
 ;;; Customize:
 ;;
@@ -117,7 +117,7 @@
   (unless (buffer-file-name)
     (user-error "Current buffer is not related to any file."))
   ;; make img dir if not exists
-  (setq img-dir (concatenate 'string (file-name-directory (buffer-file-name)) "/img/"))
+  (setq img-dir (concatenate 'string (file-name-directory (buffer-file-name)) "img/"))
   (unless (file-directory-p img-dir)
     (make-directory img-dir))
   ;; build image file name (use `pasteex_screenshot' as prefix, following buffer name, following datetime string)

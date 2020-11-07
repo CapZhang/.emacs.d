@@ -1,0 +1,305 @@
+[2020-11-07 11:17:21.483] [I] ***************************************************************
+[2020-11-07 11:17:21.483] [I] Snipaste 2.4.0-Beta x64 (Desktop) (Qt 5.12.6)
+[2020-11-07 11:17:21.483] [I] OS: Windows 10 (10.0) [10.0.18362]
+[2020-11-07 11:17:21.483] [I] Cores: 4
+[2020-11-07 11:17:21.483] [I] Elevated: false
+[2020-11-07 11:17:21.483] [I] Main thread id: 0xc7c
+[2020-11-07 11:17:21.483] [I] Log level: 2
+[2020-11-07 11:17:21.483] [I] Application dir: C:/Users/vino/.emacs.d/site-lisp/Snipaste
+[2020-11-07 11:17:21.483] [I] Working dir: C:/Users/vino
+[2020-11-07 11:17:21.483] [I] Config: C:/Users/vino/.emacs.d/site-lisp/Snipaste/config.ini
+[2020-11-07 11:17:21.483] [I] Library paths: (C:/Users/vino/.emacs.d/site-lisp/Snipaste)
+[2020-11-07 11:17:21.483] [I] Screen scale: 1.25
+[2020-11-07 11:17:21.483] [I] Retina factor: 1
+[2020-11-07 11:17:21.483] [I] Screens: 2
+[2020-11-07 11:17:21.483] [I]     QRect(0, 0, 2560 x 1440), DPI = 120 , DPR = 1
+[2020-11-07 11:17:21.483] [I]     QRect(2560, 0, 2560 x 1440), DPI = 120 , DPR = 1
+[2020-11-07 11:17:21.494] [I] Desktops: 2
+[2020-11-07 11:17:21.494] [I] About to import settings from: C:/Users/vino/.emacs.d/site-lisp/Snipaste/config.ini
+[2020-11-07 11:17:21.496] [I] Settings imported
+[2020-11-07 11:17:21.498] [I] Breakpad initialized
+[2020-11-07 11:17:21.512] [I] Process priority: 1
+[2020-11-07 11:17:21.512] [I] Initializing Snipaste...
+[2020-11-07 11:17:22.278] [I] Prefetch...
+[2020-11-07 11:17:22.293] [I] Load default ssl configuration: 15 ms
+[2020-11-07 11:17:22.344] [I] Preloaded 20 files: 67 ms
+[2020-11-07 11:17:22.351] [I] About to apply settings...
+[2020-11-07 11:17:22.398] [W] QxtGlobalShortcut failed to register: QKeySequence("F1")
+[2020-11-07 11:17:22.399] [W] QxtGlobalShortcut failed to register: QKeySequence("Ctrl+F1")
+[2020-11-07 11:17:22.399] [W] QxtGlobalShortcut failed to register: QKeySequence("Shift+F1")
+[2020-11-07 11:17:22.399] [W] QxtGlobalShortcut failed to register: QKeySequence("F3")
+[2020-11-07 11:17:22.399] [W] QxtGlobalShortcut failed to register: QKeySequence("Shift+F3")
+[2020-11-07 11:17:22.399] [W] QxtGlobalShortcut failed to register: QKeySequence("Ctrl+F3")
+[2020-11-07 11:17:22.400] [I] Settings applied
+[2020-11-07 11:17:22.410] [I] Log level set to: 2
+[2020-11-07 11:17:22.435] [I] History dir: C:/Users/vino/.emacs.d/site-lisp/Snipaste/history
+[2020-11-07 11:17:22.435] [W] Failed to open history file "C:/Users/vino/.emacs.d/site-lisp/Snipaste/history/.sp0" for reading
+[2020-11-07 11:17:22.435] [I] Add group
+[2020-11-07 11:17:22.444] [I] Request to switch to group 0
+[2020-11-07 11:17:22.472] [I] About to restore pasters...
+[2020-11-07 11:17:22.472] [I] Group 0 [E0ATDX]: "默认"
+[2020-11-07 11:17:22.472] [I] Record version: 180
+[2020-11-07 11:17:22.472] [I] To restore: 0
+[2020-11-07 11:17:22.472] [I] Pasters touched
+[2020-11-07 11:17:22.472] [I] All pasters activated: true
+[2020-11-07 11:17:22.495] [I] Unref images: 0 (0 removed)
+[2020-11-07 11:17:22.495] [I] Unref dirs: 0 (0 removed)
+[2020-11-07 11:17:22.496] [I] Empty history info files: 0 (0 removed)
+[2020-11-07 11:17:22.496] [I] Pasters restored
+[2020-11-07 11:17:22.496] [I] Launch time: 1015 ms
+[2020-11-07 11:17:27.824] [I] Second instance: 2
+[2020-11-07 11:17:27.824] [I] Parsing command arguments [3]: (C:\Users\vino\.emacs.d\site-lisp\Snipaste\Snipaste.exe, snip)
+[2020-11-07 11:17:27.824] [I] Snip request: 0 (dest: 0)
+[2020-11-07 11:17:27.824] [I] Snipper: preparing...
+[2020-11-07 11:17:28.002] [I] Screens: 2
+[2020-11-07 11:17:28.002] [I]     QRect(0, 0, 2560 x 1440), DPI = 120 , DPR = 1
+[2020-11-07 11:17:28.002] [I]     QRect(2560, 0, 2560 x 1440), DPI = 120 , DPR = 1
+[2020-11-07 11:17:28.002] [I] Desktop: QRect(0, 0, 5120 x 1440)
+[2020-11-07 11:17:28.002] [I] Background size: QSize(5120, 1440)
+[2020-11-07 11:17:28.011] [I] Focus set
+[2020-11-07 11:17:28.012] [I] Snipper: preparation done (0)
+[2020-11-07 11:17:28.012] [I] Snipper: about to appear...
+[2020-11-07 11:17:28.012] [I] Snipper: prepare to show...
+[2020-11-07 11:17:28.018] [I] Snipper: shown
+[2020-11-07 11:17:28.057] [I] Snipper: focus in
+[2020-11-07 11:17:28.057] [I] Snipper: ready [0.232 s]
+[2020-11-07 11:17:32.162] [I] Snipper: focus out [3]
+[2020-11-07 11:17:32.388] [I] Snipper: focus in
+[2020-11-07 11:17:34.955] [I] Screenshot (1325, 604, 785 x 243) destination: none
+[2020-11-07 11:17:34.955] [I] Snipper: about to quit...
+[2020-11-07 11:17:34.960] [I] Snipper: focus out [3]
+[2020-11-07 11:17:34.963] [I] Snipper: hidden
+[2020-11-07 11:17:34.965] [I] Snipper: quit
+[2020-11-07 11:17:52.649] [I] Second instance: 4
+[2020-11-07 11:17:52.649] [I] Parsing command arguments [3]: (C:\Users\vino\.emacs.d\site-lisp\Snipaste\Snipaste.exe, snip, -o, 123.png)
+[2020-11-07 11:17:52.649] [I] Snip request: 0 (dest: 64)
+[2020-11-07 11:17:52.649] [I] Snipper: preparing...
+[2020-11-07 11:17:52.763] [I] Screens: 2
+[2020-11-07 11:17:52.763] [I]     QRect(0, 0, 2560 x 1440), DPI = 120 , DPR = 1
+[2020-11-07 11:17:52.763] [I]     QRect(2560, 0, 2560 x 1440), DPI = 120 , DPR = 1
+[2020-11-07 11:17:52.763] [I] Desktop: QRect(0, 0, 5120 x 1440)
+[2020-11-07 11:17:52.763] [I] Background size: QSize(5120, 1440)
+[2020-11-07 11:17:52.772] [I] Focus set
+[2020-11-07 11:17:52.773] [I] Snipper: preparation done (0)
+[2020-11-07 11:17:52.774] [I] Snipper: about to appear...
+[2020-11-07 11:17:52.774] [I] Snipper: prepare to show...
+[2020-11-07 11:17:52.777] [I] Snipper: shown
+[2020-11-07 11:17:52.812] [I] Snipper: focus in
+[2020-11-07 11:17:52.812] [I] Snipper: ready [0.163 s]
+[2020-11-07 11:17:54.265] [I] Screenshot (1118, 422, 1387 x 804) destination: file: 123.png 
+[2020-11-07 11:17:54.268] [I] Screenshot successfully saved: file: 123.png 
+[2020-11-07 11:17:54.268] [I] Save with file names: 123.png
+[2020-11-07 11:17:54.268] [I] Snipper: about to quit...
+[2020-11-07 11:17:54.274] [I] Snipper: focus out [3]
+[2020-11-07 11:17:54.277] [I] Snipper: hidden
+[2020-11-07 11:17:54.278] [I] Snipper: quit
+[2020-11-07 11:17:54.337] [I] Image saved to: C:/Users/vino/.emacs.d/site-lisp/Snipaste/123.png
+[2020-11-07 11:17:54.669] [I] Snipper: scene saved
+[2020-11-07 11:18:14.385] [I] Second instance: 4
+[2020-11-07 11:18:14.385] [I] Parsing command arguments [3]: (C:\Users\vino\.emacs.d\site-lisp\Snipaste\Snipaste.exe, snip, -o, d:123.png)
+[2020-11-07 11:18:14.386] [I] Snip request: 0 (dest: 64)
+[2020-11-07 11:18:14.386] [I] Snipper: preparing...
+[2020-11-07 11:18:14.498] [I] Screens: 2
+[2020-11-07 11:18:14.498] [I]     QRect(0, 0, 2560 x 1440), DPI = 120 , DPR = 1
+[2020-11-07 11:18:14.498] [I]     QRect(2560, 0, 2560 x 1440), DPI = 120 , DPR = 1
+[2020-11-07 11:18:14.498] [I] Desktop: QRect(0, 0, 5120 x 1440)
+[2020-11-07 11:18:14.498] [I] Background size: QSize(5120, 1440)
+[2020-11-07 11:18:14.509] [I] Focus set
+[2020-11-07 11:18:14.509] [I] Snipper: preparation done (0)
+[2020-11-07 11:18:14.510] [I] Snipper: about to appear...
+[2020-11-07 11:18:14.510] [I] Snipper: prepare to show...
+[2020-11-07 11:18:14.514] [I] Snipper: shown
+[2020-11-07 11:18:14.553] [I] Snipper: focus in
+[2020-11-07 11:18:14.554] [I] Snipper: ready [0.168 s]
+[2020-11-07 11:18:15.873] [I] Screenshot (1118, 422, 1387 x 804) destination: file: d:123.png 
+[2020-11-07 11:18:15.875] [I] Screenshot successfully saved: file: d:123.png 
+[2020-11-07 11:18:15.875] [I] Save with file names: d:123.png
+[2020-11-07 11:18:15.875] [I] Snipper: about to quit...
+[2020-11-07 11:18:15.879] [I] Snipper: focus out [3]
+[2020-11-07 11:18:15.882] [I] Snipper: hidden
+[2020-11-07 11:18:15.883] [I] Snipper: quit
+[2020-11-07 11:18:16.248] [I] Snipper: scene saved
+[2020-11-07 11:18:16.557] [I] Image saved to: D:/123.png
+[2020-11-07 11:18:23.696] [I] Silent feed checking finished
+[2020-11-07 11:18:23.696] [I] No available update
+[2020-11-07 11:19:53.651] [I] Second instance: 4
+[2020-11-07 11:19:53.651] [I] Parsing command arguments [3]: (C:\Users\vino\.emacs.d\site-lisp\Snipaste\Snipaste.exe, snip, -o, F:\坚果云文件\笔记\8.emacs文件夹\1.待办事项\练习orgmode.org_imgs/123.png)
+[2020-11-07 11:19:53.651] [I] Snip request: 0 (dest: 64)
+[2020-11-07 11:19:53.651] [I] Snipper: preparing...
+[2020-11-07 11:19:53.782] [I] Screens: 2
+[2020-11-07 11:19:53.782] [I]     QRect(0, 0, 2560 x 1440), DPI = 120 , DPR = 1
+[2020-11-07 11:19:53.782] [I]     QRect(2560, 0, 2560 x 1440), DPI = 120 , DPR = 1
+[2020-11-07 11:19:53.782] [I] Desktop: QRect(0, 0, 5120 x 1440)
+[2020-11-07 11:19:53.782] [I] Background size: QSize(5120, 1440)
+[2020-11-07 11:19:53.792] [I] Focus set
+[2020-11-07 11:19:53.792] [I] Snipper: preparation done (0)
+[2020-11-07 11:19:53.793] [I] Snipper: about to appear...
+[2020-11-07 11:19:53.793] [I] Snipper: prepare to show...
+[2020-11-07 11:19:53.795] [I] Snipper: shown
+[2020-11-07 11:19:53.836] [I] Snipper: focus in
+[2020-11-07 11:19:53.836] [I] Snipper: ready [0.186 s]
+[2020-11-07 11:19:55.144] [I] Screenshot (985, 407, 1387 x 804) destination: file: f:\坚果云文件\笔记\8.emacs文件夹\1.待办事项\练习orgmode.org_imgs/123.png 
+[2020-11-07 11:19:55.147] [I] Screenshot successfully saved: file: f:\坚果云文件\笔记\8.emacs文件夹\1.待办事项\练习orgmode.org_imgs/123.png 
+[2020-11-07 11:19:55.147] [I] Save with file names: f:\坚果云文件\笔记\8.emacs文件夹\1.待办事项\练习orgmode.org_imgs/123.png
+[2020-11-07 11:19:55.147] [I] Snipper: about to quit...
+[2020-11-07 11:19:55.153] [I] Snipper: focus out [3]
+[2020-11-07 11:19:55.158] [I] Snipper: hidden
+[2020-11-07 11:19:55.159] [I] Snipper: quit
+[2020-11-07 11:19:55.231] [I] Image saved to: F:/坚果云文件/笔记/8.emacs文件夹/1.待办事项/练习orgmode.org_imgs/123.png
+[2020-11-07 11:19:55.536] [I] Snipper: scene saved
+[2020-11-07 11:27:22.432] [I] Preloaded 20 files: 6 ms [every 10.0 m]
+[2020-11-07 11:37:00.863] [I] Second instance: 4
+[2020-11-07 11:37:00.863] [I] Parsing command arguments [3]: (C:\Users\vino\.emacs.d\site-lisp\Snipaste\Snipaste.exe, snip, -o, F:\坚果云文件\笔记\8.emacs文件夹\1.待办事项\练习orgmode.org_imgs/123.png)
+[2020-11-07 11:37:00.863] [I] Snip request: 0 (dest: 64)
+[2020-11-07 11:37:00.863] [I] Snipper: preparing...
+[2020-11-07 11:37:01.012] [I] Screens: 2
+[2020-11-07 11:37:01.012] [I]     QRect(0, 0, 2560 x 1440), DPI = 120 , DPR = 1
+[2020-11-07 11:37:01.012] [I]     QRect(2560, 0, 2560 x 1440), DPI = 120 , DPR = 1
+[2020-11-07 11:37:01.012] [I] Desktop: QRect(0, 0, 5120 x 1440)
+[2020-11-07 11:37:01.012] [I] Background size: QSize(5120, 1440)
+[2020-11-07 11:37:01.022] [I] Focus set
+[2020-11-07 11:37:01.022] [I] Snipper: preparation done (0)
+[2020-11-07 11:37:01.023] [I] Snipper: about to appear...
+[2020-11-07 11:37:01.023] [I] Snipper: prepare to show...
+[2020-11-07 11:37:01.026] [I] Snipper: shown
+[2020-11-07 11:37:01.065] [I] Snipper: focus in
+[2020-11-07 11:37:01.065] [I] Snipper: ready [0.202 s]
+[2020-11-07 11:37:06.503] [I] Screenshot (985, 407, 1387 x 804) destination: file: f:\坚果云文件\笔记\8.emacs文件夹\1.待办事项\练习orgmode.org_imgs/123.png 
+[2020-11-07 11:37:06.506] [I] Screenshot successfully saved: file: f:\坚果云文件\笔记\8.emacs文件夹\1.待办事项\练习orgmode.org_imgs/123.png 
+[2020-11-07 11:37:06.506] [I] Save with file names: f:\坚果云文件\笔记\8.emacs文件夹\1.待办事项\练习orgmode.org_imgs/123.png
+[2020-11-07 11:37:06.508] [I] Snipper: about to quit...
+[2020-11-07 11:37:06.520] [I] Snipper: focus out [3]
+[2020-11-07 11:37:06.525] [I] Snipper: hidden
+[2020-11-07 11:37:06.525] [I] Snipper: quit
+[2020-11-07 11:37:06.586] [I] Image saved to: F:/坚果云文件/笔记/8.emacs文件夹/1.待办事项/练习orgmode.org_imgs/123.png
+[2020-11-07 11:37:06.915] [I] Snipper: scene saved
+[2020-11-07 11:38:08.827] [I] Second instance: 2
+[2020-11-07 11:38:08.827] [I] Parsing command arguments [3]: (C:\Users\vino\.emacs.d\site-lisp\Snipaste\Snipaste.exe, snip)
+[2020-11-07 11:38:08.828] [I] Snip request: 0 (dest: 0)
+[2020-11-07 11:38:08.828] [I] Snipper: preparing...
+[2020-11-07 11:38:08.951] [I] Screens: 2
+[2020-11-07 11:38:08.951] [I]     QRect(0, 0, 2560 x 1440), DPI = 120 , DPR = 1
+[2020-11-07 11:38:08.951] [I]     QRect(2560, 0, 2560 x 1440), DPI = 120 , DPR = 1
+[2020-11-07 11:38:08.951] [I] Desktop: QRect(0, 0, 5120 x 1440)
+[2020-11-07 11:38:08.951] [I] Background size: QSize(5120, 1440)
+[2020-11-07 11:38:08.960] [I] Focus set
+[2020-11-07 11:38:08.960] [I] Snipper: preparation done (0)
+[2020-11-07 11:38:08.961] [I] Snipper: about to appear...
+[2020-11-07 11:38:08.961] [I] Snipper: prepare to show...
+[2020-11-07 11:38:08.964] [I] Snipper: shown
+[2020-11-07 11:38:09.000] [I] Snipper: focus in
+[2020-11-07 11:38:09.000] [I] Snipper: ready [0.172 s]
+[2020-11-07 11:38:10.382] [I] Snipper: focus out [3]
+[2020-11-07 11:38:11.777] [I] Snipper: focus in
+[2020-11-07 11:38:11.777] [I] Screenshot (985, 407, 1387 x 804) destination: none
+[2020-11-07 11:38:11.777] [I] Snipper: about to quit...
+[2020-11-07 11:38:11.783] [I] Snipper: focus out [3]
+[2020-11-07 11:38:11.785] [I] Snipper: hidden
+[2020-11-07 11:38:11.788] [I] Snipper: quit
+[2020-11-07 11:39:27.248] [I] Second instance: 4
+[2020-11-07 11:39:27.248] [I] Parsing command arguments [3]: (C:\Users\vino\.emacs.d\site-lisp\Snipaste\Snipaste.exe, snip, -o, f:/坚果云文件/笔记/8.emacs文件夹/2.日记文件//img//snipaste_screenshot_111.org_20201107113859.png)
+[2020-11-07 11:39:27.249] [I] Snip request: 0 (dest: 64)
+[2020-11-07 11:39:27.249] [I] Snipper: preparing...
+[2020-11-07 11:39:27.384] [I] Screens: 2
+[2020-11-07 11:39:27.384] [I]     QRect(0, 0, 2560 x 1440), DPI = 120 , DPR = 1
+[2020-11-07 11:39:27.384] [I]     QRect(2560, 0, 2560 x 1440), DPI = 120 , DPR = 1
+[2020-11-07 11:39:27.384] [I] Desktop: QRect(0, 0, 5120 x 1440)
+[2020-11-07 11:39:27.384] [I] Background size: QSize(5120, 1440)
+[2020-11-07 11:39:27.394] [I] Focus set
+[2020-11-07 11:39:27.395] [I] Snipper: preparation done (0)
+[2020-11-07 11:39:27.395] [I] Snipper: about to appear...
+[2020-11-07 11:39:27.395] [I] Snipper: prepare to show...
+[2020-11-07 11:39:27.399] [I] Snipper: shown
+[2020-11-07 11:39:27.436] [I] Snipper: focus in
+[2020-11-07 11:39:27.436] [I] Snipper: ready [0.188 s]
+[2020-11-07 11:39:29.402] [I] Screenshot (985, 407, 1387 x 804) destination: file: f:/坚果云文件/笔记/8.emacs文件夹/2.日记文件//img//snipaste_screenshot_111.org_20201107113859.png 
+[2020-11-07 11:39:29.404] [I] Screenshot successfully saved: file: f:/坚果云文件/笔记/8.emacs文件夹/2.日记文件//img//snipaste_screenshot_111.org_20201107113859.png 
+[2020-11-07 11:39:29.404] [I] Save with file names: f:/坚果云文件/笔记/8.emacs文件夹/2.日记文件//img//snipaste_screenshot_111.org_20201107113859.png
+[2020-11-07 11:39:29.404] [I] Snipper: about to quit...
+[2020-11-07 11:39:29.410] [I] Snipper: focus out [3]
+[2020-11-07 11:39:29.412] [I] Snipper: hidden
+[2020-11-07 11:39:29.413] [I] Snipper: quit
+[2020-11-07 11:39:29.525] [I] Image saved to: F:/坚果云文件/笔记/8.emacs文件夹/2.日记文件/img/snipaste_screenshot_111.org_20201107113859.png
+[2020-11-07 11:39:29.776] [I] Snipper: scene saved
+[2020-11-07 11:39:52.432] [I] Preloaded 20 files: 6 ms [every 12.5 m]
+[2020-11-07 11:40:06.457] [I] Parsing command arguments [0]: (sp, snip)
+[2020-11-07 11:40:06.457] [I] Snip request: 0 (dest: 0)
+[2020-11-07 11:40:06.457] [I] Snipper: preparing...
+[2020-11-07 11:40:06.596] [I] Screens: 2
+[2020-11-07 11:40:06.596] [I]     QRect(0, 0, 2560 x 1440), DPI = 120 , DPR = 1
+[2020-11-07 11:40:06.596] [I]     QRect(2560, 0, 2560 x 1440), DPI = 120 , DPR = 1
+[2020-11-07 11:40:06.596] [I] Desktop: QRect(0, 0, 5120 x 1440)
+[2020-11-07 11:40:06.596] [I] Background size: QSize(5120, 1440)
+[2020-11-07 11:40:06.606] [I] Focus set
+[2020-11-07 11:40:06.606] [I] Snipper: preparation done (0)
+[2020-11-07 11:40:06.607] [I] Snipper: about to appear...
+[2020-11-07 11:40:06.607] [I] Snipper: prepare to show...
+[2020-11-07 11:40:06.611] [I] Snipper: shown
+[2020-11-07 11:40:06.647] [I] Snipper: focus in
+[2020-11-07 11:40:06.648] [I] Snipper: ready [0.19 s]
+[2020-11-07 11:40:08.199] [I] Snipper: focus out [3]
+[2020-11-07 11:40:09.442] [I] Snipper: focus in
+[2020-11-07 11:40:0[2020-11-07 16:55:58.358] [I] ***************************************************************
+[2020-11-07 16:55:58.358] [I] Snipaste 2.4.0-Beta x64 (Desktop) (Qt 5.12.6)
+[2020-11-07 16:55:58.358] [I] OS: Windows 10 (10.0) [10.0.18362]
+[2020-11-07 16:55:58.358] [I] Cores: 4
+[2020-11-07 16:55:58.358] [I] Elevated: false
+[2020-11-07 16:55:58.358] [I] Main thread id: 0x146c
+[2020-11-07 16:55:58.358] [I] Log level: 2
+[2020-11-07 16:55:58.358] [I] Application dir: C:/Users/vino/.emacs.d/site-lisp/Snipaste
+[2020-11-07 16:55:58.358] [I] Working dir: C:/Users/vino
+[2020-11-07 16:55:58.358] [I] Config: C:/Users/vino/.emacs.d/site-lisp/Snipaste/config.ini
+[2020-11-07 16:55:58.358] [I] Library paths: (C:/Users/vino/.emacs.d/site-lisp/Snipaste)
+[2020-11-07 16:55:58.358] [I] Screen scale: 1.25
+[2020-11-07 16:55:58.358] [I] Retina factor: 1
+[2020-11-07 16:55:58.358] [I] Screens: 2
+[2020-11-07 16:55:58.358] [I]     QRect(0, 0, 2560 x 1440), DPI = 120 , DPR = 1
+[2020-11-07 16:55:58.358] [I]     QRect(2560, 0, 2560 x 1440), DPI = 120 , DPR = 1
+[2020-11-07 16:55:58.368] [I] Desktops: 2
+[2020-11-07 16:55:58.368] [I] About to import settings from: C:/Users/vino/.emacs.d/site-lisp/Snipaste/config.ini
+[2020-11-07 16:55:58.383] [I] Settings imported
+[2020-11-07 16:55:58.385] [I] Breakpad initialized
+[2020-11-07 16:55:58.401] [I] Process priority: 1
+[2020-11-07 16:55:58.401] [I] Initializing Snipaste...
+[2020-11-07 16:55:58.743] [I] Prefetch...
+[2020-11-07 16:55:58.758] [I] Load default ssl configuration: 15 ms
+[2020-11-07 16:55:58.772] [I] Preloaded 20 files: 29 ms
+[2020-11-07 16:55:58.777] [I] About to apply settings...
+[2020-11-07 16:55:58.821] [W] QxtGlobalShortcut failed to register: QKeySequence("F1")
+[2020-11-07 16:55:58.821] [W] QxtGlobalShortcut failed to register: QKeySequence("Ctrl+F1")
+[2020-11-07 16:55:58.821] [W] QxtGlobalShortcut failed to register: QKeySequence("Shift+F1")
+[2020-11-07 16:55:58.821] [W] QxtGlobalShortcut failed to register: QKeySequence("F3")
+[2020-11-07 16:55:58.821] [W] QxtGlobalShortcut failed to register: QKeySequence("Shift+F3")
+[2020-11-07 16:55:58.821] [W] QxtGlobalShortcut failed to register: QKeySequence("Ctrl+F3")
+[2020-11-07 16:55:58.823] [I] Settings applied
+[2020-11-07 16:55:58.831] [I] Log level set to: 2
+[2020-11-07 16:55:58.855] [I] History dir: C:/Users/vino/.emacs.d/site-lisp/Snipaste/history
+[2020-11-07 16:55:58.862] [I] Header version: 180
+[2020-11-07 16:55:58.862] [I] About to restore pasters...
+[2020-11-07 16:55:58.866] [I] Group 0 [E0ATDX]: "默认"
+[2020-11-07 16:55:58.866] [I] Record version: 180
+[2020-11-07 16:55:58.866] [I] To restore: 0
+[2020-11-07 16:55:58.866] [I] Pasters touched
+[2020-11-07 16:55:58.866] [I] All pasters activated: true
+[2020-11-07 16:55:58.978] [I] Unref images: 0 (0 removed)
+[2020-11-07 16:55:58.979] [I] Unref dirs: 0 (0 removed)
+[2020-11-07 16:55:58.980] [I] Empty history info files: 0 (0 removed)
+[2020-11-07 16:55:58.980] [I] Pasters restored
+[2020-11-07 16:55:58.980] [I] Launch time: 631 ms
+[2020-11-07 16:56:05.224] [I] Second instance: 2
+[2020-11-07 16:56:05.224] [I] Parsing command arguments [3]: (C:\Users\vino\.emacs.d\site-lisp\Snipaste\Snipaste.exe, snip)
+[2020-11-07 16:56:05.224] [I] Snip request: 0 (dest: 0)
+[2020-11-07 16:56:05.224] [I] Snipper: preparing...
+[2020-11-07 16:56:05.351] [I] Screens: 2
+[2020-11-07 16:56:05.351] [I]     QRect(0, 0, 2560 x 1440), DPI = 120 , DPR = 1
+[2020-11-07 16:56:05.351] [I]     QRect(2560, 0, 2560 x 1440), DPI = 120 , DPR = 1
+[2020-11-07 16:56:05.351] [I] Desktop: QRect(0, 0, 5120 x 1440)
+[2020-11-07 16:56:05.351] [I] Background size: QSize(5120, 1440)
+[2020-11-07 16:56:05.359] [I] Focus set
+[2020-11-07 16:56:05.360] [I] Snipper: preparation done (0)
+[2020-11-07 16:56:05.360] [I] Snipper: about to appear...
+[2020-11-07 16:56:05.361] [I] Snipper: prepare to show...
+[2020-11-07 16:56:05.366] [I] Snipper: shown
+[2020-11-07 16:56:05.403] [I] Snipper: focus in
+[2020-11-07 16:56:05.403] [I] Snipper: ready [0.178 s]
+[2020-11-07 16:56:09.723] [I] Screenshot (805, 204, 

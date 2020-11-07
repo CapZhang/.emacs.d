@@ -68,6 +68,10 @@
 ;; (setq epa-file-select-keys 0)
 
 ;; 粘贴图片,需要
- (require 'pasteex-mode)
- (setq pasteex-executable-path "~/.emacs.d/site-lisp/PasteEx/PasteEx.exe")
+ ;; (require 'pasteex-mode)
+;; (setq pasteex-executable-path "~/.emacs.d/site-lisp/PasteEx/PasteEx.exe")
+ ;; (global-set-key (kbd "C-x p i") 'pasteex-image)
+
+ (require 'snipastetool-mode)
+ ;; (setq pasteex-executable-path " ~/.emacs.d/site-lisp/Snipaste/Snipaste.exe")
  (global-set-key (kbd "C-x p i") 'pasteex-image)
