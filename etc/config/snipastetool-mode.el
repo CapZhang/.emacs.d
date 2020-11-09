@@ -1,6 +1,6 @@
-;;; pasteex-mode.el --- Save clipboard image to disk file, and insert file link to current point.
+;;; snipaste-mode.el --- Save clipboard image to disk file, and insert file link to current point.
 
-;; Filename: pasteex-mode.el
+;; Filename: snipaste-mode.el
 ;; Description: Save clipboard image to disk file, and insert file link to current point.
 ;; Author: m2fox <dnxbjyj@126.com>
 ;; Maintainer: m2fox <dnxbjyj@126.com>
@@ -9,7 +9,7 @@
 ;; Version: 0.2.1
 ;; Last-Updated: 2019-09-17 Tue 22:19:32
 ;;           By: m2fox
-;; URL: https://github.com/dnxbjyj/pasteex-mode/blob/master/pasteex-mode.el
+;; URL: https://github.com/dnxbjyj/snipaste-mode/blob/master/snipaste-mode.el
 ;; Keywords:
 ;; Compatibility: GNU Emacs 25.3
 ;;
@@ -49,19 +49,19 @@
 
 ;; Download PasteEx.exe from: https://github.com/huiyadanli/PasteEx/releases
 ;;
-;; Add `pasteex-mode.el` to your `load-path`. The `load-path` is usually `~/elisp/`.
+;; Add `snipaste-mode.el` to your `load-path`. The `load-path` is usually `~/elisp/`.
 ;; It's set in your `~/.emacs` file like this:
 ;; (add-to-list 'load-path (expand-file-name "~/elisp"))
 ;;
 ;; And the following to your ~/.emacs startup file.
-;; (require 'pasteex-mode)
+;; (require 'snipaste-mode)
 ;;
 ;; Set `PasteEx.exe` executable file path to environment PATH, or set the variable
-;; `pasteex-executable-path` in your config file, like this:
-;; (setq pasteex-executable-path "D:/program/PasteEx/PasteEx.exe")
+;; `snipaste-executable-path` in your config file, like this:
+;; (setq snipaste-executable-path "D:/program/PasteEx/PasteEx.exe")
 ;;
-;; Bind your favority key to function `pasteex-image`, like this:
-;; (global-set-key (kbd "C-x p i") 'pasteex-image)
+;; Bind your favority key to function `snipaste-image`, like this:
+;; (global-set-key (kbd "C-x p i") 'snipaste-image)
 ;;
 ;; After you make a screenshot to clipboard, or copy a PNG image file to clipboard,
 ;; then just press `C-x p i` shortcut, and the file link or path will be inserted to your buffer
@@ -69,8 +69,8 @@
 
 ;;; Customize:
 ;;
-;; `pasteex-executable-path' can customize by:
-;;      M-x customize-group RET pasteex RET
+;; `snipaste-executable-path' can customize by:
+;;      M-x customize-group RET snipaste RET
 ;;
 
 ;;; Change log:
@@ -78,7 +78,7 @@
 ;;      * Support indicate image display name when insert image.
 ;;
 ;; 2019-09-08 Sun
-;;      * Add a function `pasteex-delete-img-link-and-file-at-line' to delete file when delete it link.
+;;      * Add a function `snipaste-delete-img-link-and-file-at-line' to delete file when delete it link.
 ;;
 ;; 2019-09-02 Mon
 ;;      * First released.
@@ -98,24 +98,24 @@
 
 
 ;;; Code:
-(defgroup pasteex nil
+(defgroup snipaste nil
   "Save clipboard image to disk file, and insert file path to current point."
-  :group 'pasteex)
+  :group 'snipaste)
 
-(defcustom pasteex-executable-path "Snipaste"
+(defcustom snipaste-executable-path "Snipaste"
   "Pasteex executable file path."
   :type 'string
-  :group 'pasteex)
+  :group 'snipaste)
 
-(defun pasteex-image ()
+(defun snipaste-image ()
   "Save clipboard image to disk file, and insert file path to current point."
   (interactive)
-  ;; validate pasteex-executable-path
-  (message (format "%s" pasteex-executable-path))
-  (message (format "%s" (unless (executable-find pasteex-executable-path))))
+  ;; validate snipaste-executable-path
+  (message (format "%s" snipaste-executable-path))
+  (message (format "%s" (unless (executable-find snipaste-executable-path))))
 
-  (unless (executable-find pasteex-executable-path)
-    (user-error "You need to add `pasteex' executable to environment PATH, or set `pasteex-executable-path' value."))
+  (unless (executable-find snipaste-executable-path)
+    (user-error "You need to add `snipaste' executable to environment PATH, or set `snipaste-executable-path' value."))
 
   ;; check if buffer has a file name
   (unless (buffer-file-name)
@@ -125,31 +125,29 @@
   (setq img-dir (concatenate 'string (file-name-directory (buffer-file-name)) "img"))
   (unless (file-directory-p img-dir)
     (make-directory img-dir))
-  ;; build image file name (use `pasteex_screenshot' as prefix, following buffer name, following datetime string)
+  ;; build image file name (use `snipaste_screenshot' as prefix, following buffer name, following datetime string)
   (setq img-file-name (format "snipaste_screenshot_%s_%s.png" (file-name-base (buffer-file-name)) (format-time-string "%Y%m%d%H%M%S")))
-  ;; save image file to img-dir by invoking pasteex executable command
-  (shell-command (format "%s" pasteex-executable-path))
-  (message "开始前===============")
-  (shell-command (format "%s snip -o %s/%s" pasteex-executable-path img-dir img-file-name))
-  (message (format "%s snip -o %s/%s" pasteex-executable-path img-dir img-file-name))
+  ;; save image file to img-dir by invoking snipaste executable command
+  (shell-command (format "%s" snipaste-executable-path))
+  ;; (message "exec shell===============")
+  (shell-command (format "%s snip -o %s/%s" snipaste-executable-path img-dir img-file-name))
+  ;; (message (format "%s snip -o %s/%s" snipaste-executable-path img-dir img-file-name))
+  (setq img-ok (read-string "Are you OK? \"n\" to break: "))
+  (if (equal img-ok 'n)
+      (user-error "The user interrupted the paste!")
+    (message "The picture is being pasted...")
+    )
   (setq relative-img-file-path (concatenate 'string "./img/" img-file-name))
-  ;; 检查文件是否存在，不存在就等等,还没有完成
-  (loop do
-        (;; check is png file or not
-         ;; (unless (pasteex-is-png-file relative-img-file-path)
-         ;;   (message relative-img-file-path)
-         ;;   ;; delete the generated file
-         ;;   (delete-file relative-img-file-path)
-         ;;   (user-error "There is no image on clipboard."))
+  (unless (snipaste-is-png-file relative-img-file-path)
+    ;; delete the generated file
+    (delete-file relative-img-file-path)
+    (user-error "There is no image on clipboard."))
+  ;; image display name
+  (setq display-name (read-string "Input a display name (default empty): "))
+  ;; insert image file path (relative path)
+  (insert (snipaste-build-img-file-insert-path relative-img-file-path display-name)))
 
-         ;; image display name
-         ;; (setq display-name (read-string "Input a display name (default empty): "))
-         ;; insert image file path (relative path)
-         (insert (pasteex-build-img-file-insert-path relative-img-file-path (read-string "Input a display name (default empty): "))))
-        (while  (file-exists-p (format "%s/%s" img-dir img-file-name))
-          ) ) )
-
-(defun pasteex-build-img-file-insert-path (file-path display-name)
+(defun snipaste-build-img-file-insert-path (file-path display-name)
   "Build image file path that to insert to current point."
   (cond
    ((string-equal major-mode "markdown-mode") (format "![%s](%s)" display-name file-path))
@@ -163,7 +161,7 @@
 	  file-path
 	(format "%s: %s" display-name file-path))))))
 
-(defun pasteex-is-png-file (file-path)
+(defun snipaste-is-png-file (file-path)
   "Check a file is png file or not."
   (interactive)
   (with-temp-buffer
@@ -175,7 +173,7 @@
 	t
       nil)))
 
-(defun pasteex-delete-img-link-and-file-at-line ()
+(defun snipaste-delete-img-link-and-file-at-line ()
   "Delete image link at line, and delete related disk file at the same time."
   (interactive)
   ;; the line content
@@ -193,16 +191,16 @@
     (message "file NOT exist: %s" img-file-path)))
 
 ;;;###autoload
-(define-minor-mode pasteex-mode
+(define-minor-mode snipaste-mode
   "Save clipboard image to disk file, and insert file path to current point."
-  :lighter " pasteex"
+  :lighter " snipaste"
   :keymap (let ((map (make-sparse-keymap)))
 	    map))
 
 ;;;###autoload
-(add-hook 'org-mode-hook 'pasteex-mode)
+(add-hook 'org-mode-hook 'snipaste-mode)
 ;;;###autoload
-(add-hook 'markdown-mode-hook 'pasteex-mode)
+(add-hook 'markdown-mode-hook 'snipaste-mode)
 
 (provide 'snipastetool-mode)
-;;; pasteex-mode.el ends here
+;;; snipaste-mode.el ends here

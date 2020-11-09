@@ -302,4 +302,128 @@
 [2020-11-07 16:56:05.366] [I] Snipper: shown
 [2020-11-07 16:56:05.403] [I] Snipper: focus in
 [2020-11-07 16:56:05.403] [I] Snipper: ready [0.178 s]
-[2020-11-07 16:56:09.723] [I] Screenshot (805, 204, 
+[2020-11-07 16:56:09.723] [I] Screenshot (805, 204, 1387 x 804) destination: none
+[2020-11-07 16:56:09.723] [I] Snipper: about to quit...
+[2020-11-07 16:56:09.729] [I] Snipper: focus out [3]
+[2020-11-07 16:56:09.731] [I] Snipper: hidden
+[2020-11-07 16:56:09.733] [I] Snipper: quit
+[2020-11-07 17:00:34.736] [I] Second instance: 2
+[2020-11-07 17:00:34.736] [I] Parsing command arguments [3]: (C:\Users\vino\.emacs.d\site-lisp\Snipaste\Snipaste.exe, snip)
+[2020-11-07 17:00:34.736] [I] Snip request: 0 (dest: 0)
+[2020-11-07 17:00:34.736] [I] Snipper: preparing...
+[2020-11-07 17:00:34.853] [I] Screens: 2
+[2020-11-07 17:00:34.853] [I]     QRect(0, 0, 2560 x 1440), DPI = 120 , DPR = 1
+[2020-11-07 17:00:34.853] [I]     QRect(2560, 0, 2560 x 1440), DPI = 120 , DPR = 1
+[2020-11-07 17:00:34.853] [I] Desktop: QRect(0, 0, 5120 x 1440)
+[2020-11-07 17:00:34.853] [I] Background size: QSize(5120, 1440)
+[2020-11-07 17:00:34.861] [I] Focus set
+[2020-11-07 17:00:34.861] [I] Snipper: preparation done (0)
+[2020-11-07 17:00:34.862] [I] Snipper: about to appear...
+[2020-11-07 17:00:34.862] [I] Snipper: prepare to show...
+[2020-11-07 17:00:34.867] [I] Snipper: shown
+[2020-11-07 17:00:34.903] [I] Snipper: focus in
+[2020-11-07 17:00:34.903] [I] Snipper: ready [0.166 s]
+[2020-11-07 17:00:35.958] [I] Snipper: focus out [3]
+[2020-11-07 17:00:37.231] [I] Snipper: focus in
+[2020-11-07 17:00:37.231] [I] Screenshot (805, 204, 1387 x 804) destination: none
+[2020-11-07 17:00:37.231] [I] Snipper: about to quit...
+[2020-11-07 17:00:37.235] [I] Snipper: focus out [3]
+[2020-11-07 17:00:37.239] [I] Snipper: hidden
+[2020-11-07 17:00:37.241] [I] Snipper: quit
+[2020-11-07 17:17:39.347] [I] Second instance: 1
+[2020-11-07 17:17:42.934] [I] Second instance: 2
+[2020-11-07 17:17:42.934] [I] Parsing command arguments [3]: (C:\Users\vino\.emacs.d\site-lisp\Snipaste\Snipaste.exe, snip)
+[2020-11-07 17:17:42.935] [I] Snip request: 0 (dest: 0)
+[2020-11-07 17:17:42.935] [I] Snipper: preparing...
+[2020-11-07 17:17:43.077] [I] Screens: 2
+[2020-11-07 17:17:43.077] [I]     QRect(0, 0, 2560 x 1440), DPI = 120 , DPR = 1
+[2020-11-07 17:17:43.077] [I]     QRect(2560, 0, 2560 x 1440), DPI = 120 , DPR = 1
+[2020-11-07 17:17:43.077] [I] Desktop: QRect(0, 0, 5120 x 1440)
+[2020-11-07 17:17:43.077] [I] Background size: QSize(5120, 1440)
+[2020-11-07 17:17:43.084] [I] Focus set
+[2020-11-07 17:17:43.085] [I] Snipper: preparation done (0)
+[2020-11-07 17:17:43.085] [I] Snipper: about to appear...
+[2020-11-07 17:17:43.085] [I] Snipper: prepare to show...
+[2020-11-07 17:17:43.093] [I] Snipper: shown
+[2020-11-07 17:17:43.135] [I] Snipper: focus in
+[2020-11-07 17:17:43.135] [I] Snipper: ready [0.201 s]
+[2020-11-07 17:17:43.986] [I] Snipper: focus out [3]
+[2020-11-07 17:17:45.535] [I] Snipper: focus in
+[2020-11-07 17:17:45.535] [I] Screenshot (805, 204, 1387 x 804) destination: none
+[2020-11-07 17:17:45.535] [I] Snipper: about to quit...
+[2020-11-07 17:17:45.543] [I] Snipper: focus out [3]
+[2020-11-07 17:17:45.547] [I] Snipper: hidden
+[2020-11-07 17:17:45.550] [I] Snipper: quit
+[2020-11-07 17:25:58.864] [I] Preloaded 20 files: 10 ms [every 30.0 m]
+[2020-11-07 17:55:58.862] [I] Preloaded 20 files: 6 ms [every 30.0 m]
+[2020-11-07 18:25:58.860] [I] Preloaded 20 files: 6 ms [every 30.0 m]
+[2020-11-07 18:55:58.858] [I] Preloaded 20 files: 6 ms [every 30.0 m]
+[2020-11-07 19:25:58.866] [I] Preloaded 20 files: 0 ms [every 30.0 m]
+[2020-11-07 19:55:58.866] [I] Preloaded 20 files: 6 ms [every 30.0 m]
+[2020-11-07 20:25:58.890] [I] Preloaded 20 files: 0 ms [every 30.0 m]
+[2020-11-07 20:55:58.891] [I] Preloaded 20 files: 7 ms [every 30.0 m]
+[2020-11-07 21:25:58.892] [I] Preloaded 20 files: 7 ms [every 30.0 m]
+[2020-11-07 21:55:58.895] [I] Preloaded 20 files: 7 ms [every 30.0 m]
+[2020-11-07 22:25:58.902] [I] Preloaded 20 files: 0 ms [every 30.0 m]
+[2020-11-07 22:55:58.902] [I] Preloaded 20 files: 0 ms [every 30.0 m]
+[2020-11-07 23:25:58.892] [I] Preloaded 20 files: 0 ms [every 30.0 m]
+[2020-11-07 23:55:58.899] [I] Preloaded 20 files: 0 ms [every 30.0 m]
+[2020-11-08 00:25:58.892] [I] Preloaded 20 files: 7 ms [every 30.0 m]
+[2020-11-08 00:55:58.893] [I] Preloaded 20 files: 7 ms [every 30.0 m]
+[2020-11-08 01:25:58.900] [I] Preloaded 20 files: 0 ms [every 30.0 m]
+[2020-11-08 01:55:58.892] [I] Preloaded 20 files: 7 ms [every 30.0 m]
+[2020-11-08 02:25:58.892] [I] Preloaded 20 files: 7 ms [every 30.0 m]
+[2020-11-08 02:55:58.891] [I] Preloaded 20 files: 7 ms [every 30.0 m]
+[2020-11-08 03:25:58.890] [I] Preloaded 20 files: 7 ms [every 30.0 m]
+[2020-11-08 03:55:58.894] [I] Preloaded 20 files: 7 ms [every 30.0 m]
+[2020-11-08 04:25:58.892] [I] Preloaded 20 files: 7 ms [every 30.0 m]
+[2020-11-08 04:55:58.889] [I] Preloaded 20 files: 7 ms [every 30.0 m]
+[2020-11-08 05:25:58.892] [I] Preloaded 20 files: 7 ms [every 30.0 m]
+[2020-11-08 05:55:58.893] [I] Preloaded 20 files: 7 ms [every 30.0 m]
+[2020-11-08 06:25:58.890] [I] Preloaded 20 files: 7 ms [every 30.0 m]
+[2020-11-08 06:55:58.891] [I] Preloaded 20 files: 7 ms [every 30.0 m]
+[2020-11-08 07:25:58.896] [I] Preloaded 20 files: 7 ms [every 30.0 m]
+[2020-11-08 07:55:58.896] [I] Preloaded 20 files: 7 ms [every 30.0 m]
+[2020-11-08 08:25:58.892] [I] Preloaded 20 files: 7 ms [every 30.0 m]
+[2020-11-08 08:55:58.892] [I] Preloaded 20 files: 6 ms [every 30.0 m]
+[2020-11-08 09:25:58.894] [I] Preloaded 20 files: 7 ms [every 30.0 m]
+[2020-11-08 09:55:58.893] [I] Preloaded 20 files: 6 ms [every 30.0 m]
+[2020-11-08 10:25:58.897] [I] Preloaded 20 files: 7 ms [every 30.0 m]
+[2020-11-08 10:55:58.909] [I] Preloaded 20 files: 7 ms [every 30.0 m]
+[2020-11-08 11:25:58.909] [I] Preloaded 20 files: 8 ms [every 30.0 m]
+[2020-11-08 11:55:58.905] [I] Preloaded 20 files: 6 ms [every 30.0 m]
+[2020-11-08 12:25:58.906] [I] Preloaded 20 files: 7 ms [every 30.0 m]
+[2020-11-08 12:55:58.910] [I] Preloaded 20 files: 7 ms [every 30.0 m]
+[2020-11-08 13:25:58.905] [I] Preloaded 20 files: 7 ms [every 30.0 m]
+[2020-11-08 13:55:58.912] [I] Preloaded 20 files: 6 ms [every 30.0 m]
+[2020-11-08 14:25:58.911] [I] Preloaded 20 files: 7 ms [every 30.0 m]
+[2020-11-08 14:55:58.910] [I] Preloaded 20 files: 7 ms [every 30.0 m]
+[2020-11-08 15:25:58.909] [I] Preloaded 20 files: 7 ms [every 30.0 m]
+[2020-11-08 15:55:58.909] [I] Preloaded 20 files: 7 ms [every 30.0 m]
+[2020-11-08 16:25:58.906] [I] Preloaded 20 files: 7 ms [every 30.0 m]
+[2020-11-08 16:55:58.906] [I] Preloaded 20 files: 6 ms [every 30.0 m]
+[2020-11-08 17:25:58.907] [I] Preloaded 20 files: 7 ms [every 30.0 m]
+[2020-11-08 17:55:58.909] [I] Preloaded 20 files: 6 ms [every 30.0 m]
+[2020-11-08 18:25:58.907] [I] Preloaded 20 files: 7 ms [every 30.0 m]
+[2020-11-08 18:55:58.905] [I] Preloaded 20 files: 6 ms [every 30.0 m]
+[2020-11-08 19:25:58.905] [I] Preloaded 20 files: 7 ms [every 30.0 m]
+[2020-11-08 19:55:58.907] [I] Preloaded 20 files: 7 ms [every 30.0 m]
+[2020-11-08 20:26:00.491] [I] Preloaded 20 files: 7 ms [every 30.0 m]
+[2020-11-08 20:56:00.489] [I] Preloaded 20 files: 6 ms [every 30.0 m]
+[2020-11-08 21:26:00.498] [I] Preloaded 20 files: 8 ms [every 30.0 m]
+[2020-11-08 21:56:00.505] [I] Preloaded 20 files: 7 ms [every 30.0 m]
+[2020-11-08 22:26:00.506] [I] Preloaded 20 files: 7 ms [every 30.0 m]
+[2020-11-08 22:56:00.505] [I] Preloaded 20 files: 7 ms [every 30.0 m]
+[2020-11-08 23:26:00.506] [I] Preloaded 20 files: 7 ms [every 30.0 m]
+[2020-11-08 23:56:00.507] [I] Preloaded 20 files: 7 ms [every 30.0 m]
+[2020-11-09 00:26:00.505] [I] Preloaded 20 files: 7 ms [every 30.0 m]
+[2020-11-09 00:56:00.505] [I] Preloaded 20 files: 7 ms [every 30.0 m]
+[2020-11-09 01:26:00.514] [I] Preloaded 20 files: 8 ms [every 30.0 m]
+[2020-11-09 01:56:00.525] [I] Preloaded 20 files: 7 ms [every 30.0 m]
+[2020-11-09 02:26:00.524] [I] Preloaded 20 files: 7 ms [every 30.0 m]
+[2020-11-09 02:56:00.529] [I] Preloaded 20 files: 6 ms [every 30.0 m]
+[2020-11-09 03:26:00.542] [I] Preloaded 20 files: 7 ms [every 30.0 m]
+[2020-11-09 03:56:00.550] [I] Preloaded 20 files: 7 ms [every 30.0 m]
+[2020-11-09 04:26:00.557] [I] Preloaded 20 files: 7 ms [every 30.0 m]
+[2020-11-09 04:56:00.554] [I] Preloaded 20 files: 7 ms [every 30.0 m]
+[2020-11-09 05:26:00.556] [I]

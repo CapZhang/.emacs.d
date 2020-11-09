@@ -73,5 +73,12 @@
  ;; (global-set-key (kbd "C-x p i") 'pasteex-image)
 
  (require 'snipastetool-mode)
- ;; (setq pasteex-executable-path " ~/.emacs.d/site-lisp/Snipaste/Snipaste.exe")
- (global-set-key (kbd "C-x p i") 'pasteex-image)
+ ;; (setq snipaste-executable-path " ~/.emacs.d/site-lisp/Snipaste/Snipaste.exe")
+ (global-set-key (kbd "C-x p i") 'snipaste-image)
+
+(defun shk-fix-inline-images ()
+  (when org-inline-image-overlays
+    (org-redisplay-inline-images)))
+
+(with-eval-after-load 'org
+  (add-hook 'org-babel-after-execute-hook 'shk-fix-inline-images))
