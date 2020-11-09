@@ -74,8 +74,9 @@
 
  (require 'snipastetool-mode)
  ;; (setq snipaste-executable-path " ~/.emacs.d/site-lisp/Snipaste/Snipaste.exe")
- (global-set-key (kbd "C-x p i") 'snipaste-image)
- (global-set-key (kbd "C-x p d") 'snipaste-delete-img-link-and-file-at-line)
+(global-set-key (kbd "C-x p i") 'snipaste-image)
+(global-set-key (kbd "C-x p d") 'snipaste-delete-img-link-and-file-at-line)
+(setq-default org-image-actual-width 100)
 (defun shk-fix-inline-images ()
   (when org-inline-image-overlays
     (org-redisplay-inline-images)))
