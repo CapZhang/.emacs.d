@@ -490,4 +490,61 @@
 [2020-11-09 15:18:41.966] [I] Snipper: focus out [3]
 [2020-11-09 15:18:41.967] [I] Snipper: hidden
 [2020-11-09 15:18:41.969] [I] Snipper: quit
-[2020
+[2020-11-09 15:18:42.331] [I] Snipper: scene saved
+[2020-11-09 15:26:00.554] [I] Preloaded 20 files: 7 ms [every 30.0 m]
+[2020-11-09 15:56:00.557] [I] Preloaded 20 files: 7 ms [every 30.0 m]
+[2020-11-09 16:26:00.554] [I] Preloaded 20 files: 11 ms [every 30.0 m]
+[2020-11-09 16:56:00.552] [I] Preloaded 20 files: 8 ms [every 30.0 m]
+[2020-11-09 17:26:00.552] [I] Preloaded 20 files: 8 ms [every 30.0 m]
+[2020-11-09 17:56:00.558] [I] Preloaded 20 files: 7 ms [every 30.0 m]
+[2020-11-09 18:26:00.551] [I] Preloaded 20 files: 8 ms [every 30.0 m]
+[2020-11-09 18:56:00.554] [I] Preloaded 20 files: 8 ms [every 30.0 m]
+[2020-11-09 19:26:00.554] [I] Preloaded 20 files: 8 ms [every 30.0 m]
+[2020-11-09 19:56:00.554] [I] Preloaded 20 files: 8 ms [every 30.0 m]
+[2020-11-09 20:26:00.553] [I] Preloaded 20 files: 7 ms [every 30.0 m]
+[2020-11-09 20:56:00.661] [I] Preloaded 20 files: 117 ms [every 30.0 m]
+[2020-11-09 21:26:00.773] [I] Preloaded 20 files: 116 ms [every 30.0 m]
+[2020-11-09 21:56:00.773] [I] Preloaded 20 files: 8 ms [every 30.0 m]
+[2020-11-09 22:26:00.771] [I] Preloaded 20 files: 8 ms [every 30.0 m]
+[2020-11-09 22:56:00.770] [I] Preloaded 20 files: 7 ms [every 30.0 m]
+[2020-11-09 23:26:00.770] [I] Preloaded 20 files: 8 ms [every 30.0 m]
+[2020-11-09 23:56:00.772] [I] Preloaded 20 files: 8 ms [every 30.0 m]
+[2020-11-10 00:26:00.776] [I] Preloaded 20 files: 7 ms [every 30.0 m]
+[2020-11-10 00:56:00.883] [I] Preloaded 20 files: 117 ms [every 30.0 m]
+[2020-11-10 01:26:00.993] [I] Preloaded 20 files: 116 ms [every 30.0 m]
+[2020-11-10 01:56:01.102] [I] Preloaded 20 files: 119 ms [every 30.0 m]
+[2020-11-10 02:26:01.211] [I] Preloaded 20 files: 118 ms [every 30.0 m]
+[2020-11-10 02:56:01.323] [I] Preloaded 20 files: 119 ms [every 30.0 m]
+[2020-11-10 03:26:01.430] [I] Preloaded 20 files: 118 ms [every 30.0 m]
+[2020-11-10 03:56:01.537] [I] Preloaded 20 files: 116 ms [every 30.0 m]
+[2020-11-10 04:26:01.651] [I] Preloaded 20 files: 117 ms [every 30.0 m]
+[2020-11-10 04:56:01.755] [I] Preloaded 20 files: 118 ms [every 30.0 m]
+[2020-11-10 05:26:01.864] [I] Preloaded 20 files: 117 ms [every 30.0 m]
+[2020-11-10 05:56:01.983] [I] Preloaded 20 files: 118 ms [every 30.0 m]
+[2020-11-10 06:26:02.102] [I] Preloaded 20 files: 119 ms [every 30.0 m]
+[2020-11-10 06:56:02.212] [I] Preloaded 20 files: 119 ms [every 30.0 m]
+[2020-11-10 07:26:02.321] [I] Preloaded 20 files: 119 ms [every 30.0 m]
+[2020-11-10 07:56:02.430] [I] Preloaded 20 files: 120 ms [every 30.0 m]
+[2020-11-10 08:26:02.540] [I] Preloaded 20 files: 118 ms [every 30.0 m]
+[2020-11-10 08:56:02.538] [I] Preloaded 20 files: 8 ms [every 30.0 m]
+[2020-11-10 09:26:02.537] [I] Preloaded 20 files: 7 ms [every 30.0 m]
+[2020-11-10 09:56:02.656] [I] Preloaded 20 files: 124 ms [every 30.0 m]
+[2020-11-10 10:26:02.661] [I] Preloaded 20 files: 7 ms [every 30.0 m]
+[2020-11-10 10:56:02.780] [I] Preloaded 20 files: 116 ms [every 30.0 m]
+[2020-11-10 11:26:02.786] [I] Preloaded 20 files: 8 ms [every 30.0 m]
+[2020-11-10 11:56:02.787] [I] Preloaded 20 files: 8 ms [every 30.0 m]
+[2020-11-10 12:26:02.788] [I] Preloaded 20 files: 7 ms [every 30.0 m]
+[2020-11-10 12:56:02.787] [I] Preloaded 20 files: 7 ms [every 30.0 m]
+[2020-11-10 13:26:02.788] [I] Preloaded 20 files: 7 ms [every 30.0 m]
+[2020-11-10 13:56:02.788] [I] Preloaded 20 files: 7 ms [every 30.0 m]
+[2020-11-10 14:26:02.793] [I] Preloaded 20 files: 8 ms [every 30.0 m]
+[2020-11-10 14:56:02.802] [I] Preloaded 20 files: 9 ms [every 30.0 m]
+[2020-11-10 15:26:02.801] [I] Preloaded 20 files: 8 ms [every 30.0 m]
+[2020-11-10 15:26:23.755] [I] Parsing command arguments [0]: (sp, show-tray-menu)
+[2020-11-10 15:26:24.366] [I] Quit from tray menu
+[2020-11-10 15:26:24.387] [I] Snipaste: normal exit
+[2020-11-10 15:26:24.387] [I] Snipper: destructed
+[2020-11-10 15:26:24.441] [I] WinEnumer destructed
+[2020-11-10 15:26:24.443] [I] Exit: 0
+
+
